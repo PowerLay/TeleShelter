@@ -1,20 +1,20 @@
 {
   "configurations": [
     {
-        "name": "Docker: Python - Flask hotreaload",
-        "type": "docker",
-        "request": "launch",
-        "preLaunchTask": "docker-run: debug hotreaload",
-        "python": {
-          "pathMappings": [
-            {
-              "localRoot": "${workspaceFolder}",
-              "remoteRoot": "/app"
-            }
-          ],
-          "projectType": "flask"
-        }
-      },
+      "name": "Docker: Python - Flask hotreaload",
+      "type": "docker",
+      "request": "launch",
+      "preLaunchTask": "docker-run: debug hotreaload",
+      "python": {
+        "pathMappings": [
+          {
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "/app"
+          }
+        ],
+        "projectType": "flask"
+      }
+    },
     {
       "name": "Docker: Python - Flask",
       "type": "docker",
